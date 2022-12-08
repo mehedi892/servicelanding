@@ -1,0 +1,594 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+}
+form input, form textarea {
+    border: 1px solid #f5f5f5;
+    background: #f5f5f5;
+    padding: 14px 20px;
+    margin-bottom: 30px;
+    width: 100%;
+    color: #aaa;
+    border-radius: 5px;
+    text-align: left;
+}
+li {
+    list-style: none;
+}
+h5{
+    font-size: 20px;
+}
+.bg-grey {
+    background: #f4f4f6;
+}
+.section {
+    padding: 90px 0 100px;
+}
+.show {
+    display: block !important;
+}
+
+.hide {
+    display: none;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.serviceNav {
+    background-color: transparent;
+    
+
+}
+
+.serviceNav nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.serviceLinkDiv .service {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.serviceLinkDiv .service:hover {
+    color: #ffb005;
+}
+
+.bar {
+    width: 30px;
+    height: 3px;
+    background-color: #ffb005;
+    margin-top: 5px;
+}
+
+.bars {
+    display: none;
+}
+.navbar-fixed {
+    background: #fff;
+    transition: .5s ease-out;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 0%), 0 1px 5px 0 rgb(0 0 0 / 12%), 0 3px 1px -2px rgb(0 0 0 / 0%);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 11;
+    margin: 0 auto;
+}
+.navbar-fixed .service{
+    color: #333;
+}
+
+
+
+
+
+.home-introService {
+    background: url(https://cdn.shopify.com/s/files/1/0580/5424/6581/products/bg-intro_720x.png), #f8f5ff;
+    background-repeat: no-repeat;
+    padding: 130px 0 150px !important;
+    background-size: 58%;
+    background-position: top right;
+    margin-top: -85px;
+
+}
+
+.line {
+    height: 3px;
+    background: #614cab;
+    width: 60px;
+    display: inline-block;
+    position: relative;
+    bottom: 5px;
+    margin-right: 15px;
+}
+
+.introServiceFlexDiv1 h5 {
+    margin-top: 40px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.introServiceFlexDiv1 h2 {
+    font-size: 102px;
+    font-weight: 700;
+    margin: 60px 0;
+    line-height: 54px;
+    letter-spacing: 1px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #614cab;
+}
+
+.button {
+    background: #ffb005;
+    padding: 12px 30px;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 5px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-top: 22px;
+    display: inline-block;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.button:hover {
+    border-color: #ffb005;
+    color: #222;
+    background: transparent;
+    transition: .5s ease-out;
+}
+
+.button2 {
+    background: transparent;
+    border: 2px solid #ffb005;
+    padding: 12px 30px;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 5px;
+    color: #222;
+    letter-spacing: 1px;
+    margin-top: 22px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.button2:hover {
+    border-color: #ffb005;
+    color: #fff;
+    background: #ffb005;
+    transition: .5s ease-out;
+}
+
+.introServiceFlexDiv1 ul li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.introServiceFlex {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+    align-items: center;
+}
+
+.content-image {
+    max-width: 400px;
+    height: 300px;
+}
+
+.content-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+.about-section {
+    padding: 90px 0 100px;
+    background: #f4f4f6;
+}
+
+.title-section {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.title-section p {
+    color: #614cab;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.title-section h3 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.about-section .content {
+    background: #fff;
+    border-radius: 15px;
+    text-align: center;
+    padding: 30px;
+    cursor: default;
+}
+
+.about-content-flexDiv {
+    display: flex;
+    margin: auto;
+    gap: 20px;
+   align-items: center;
+   justify-content: center;
+   width: 90%;
+}
+
+.about-content-flexDiv .content {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    height: min-content;
+}
+
+.about-section .content:hover {
+    background: #614cab;
+    color: #fff;
+    transition: .7s ease-out;
+    box-shadow: 0 12px 30px -15px rgb(0 0 0 / 20%);
+}
+
+.about-section .content:hover i {
+    color: #fff;
+}
+
+.about-section .content i {
+    font-size: 56px;
+    color: #614cab;
+}
+
+.about-section .content h5 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.lni-bulb::before {
+    content: "\ea42";
+}
+
+
+.services-section{
+    background: #f4f4f6;
+}
+.services-sectionGridDiv{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
+    gap: 30px;
+    margin: 0 auto;
+}
+.services-section .content {
+    background: #fff;
+    border-radius: 15px;
+    text-align: center;
+    padding: 30px;
+    cursor: default;
+    margin-bottom: 30px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.services-section .content:hover {
+    background: #614cab;
+    color: #fff;
+    transition: .7s ease-out;
+    box-shadow: 0 12px 30px -15px rgb(0 0 0 / 20%);
+}
+.services-section .content:hover i {
+    color: #fff;
+}
+.services-section .content i {
+    font-size: 56px;
+    color: #614cab;
+}
+.services-section .content h5 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.services-section .completed {
+    background: #fff;
+    text-align: center;
+    padding: 60px 0;
+    border-radius: 15px;
+    margin-top: 62px;
+    margin-bottom: 10px;
+    background: url(https://cdn.shopify.com/s/files/1/0580/5424/6581/products/bg-service3_1024x1024.png) bottom 18px right 18px, url(https://cdn.shopify.com/s/files/1/0580/5424/6581/products/bg-service1_1024x1024.png) bottom left, url(https://cdn.shopify.com/s/files/1/0580/5424/6581/products/bg-service2_1024x1024.png) top right 230px;
+    background-repeat: no-repeat;
+    background-size: 70px, 300px, 190px;
+    background-color: #fff;
+}
+.completedFlexDiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.services-section .completed h4 {
+    font-size: 58px;
+    font-weight: 600;
+    color: #614cab;
+}
+.services-section .completed span {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.pricingTableGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px , 1fr) );
+    gap: 20px;
+}
+.pricing .button {
+    position: relative;
+    bottom: 46px;
+    margin-bottom: -46px;
+}
+.pricing .content h4 {
+    font-size: 24px;
+}
+.pricing .content span {
+    font-size: 38px;
+    color: #614cab;
+    display: block;
+    margin: 14px;
+    font-weight: 600;
+}
+.pricing .content ul li {
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.pricing .content ul li.not-active {
+    color: #ddd;
+}
+.pricing .content {
+    background: #f9f8fc;
+    text-align: center;
+    border-radius: 15px;
+    padding: 35px 0 46px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+.pricingTableGridDivCmn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pricing .content-center {
+    background: #614cab;
+}
+.pricing .content-center h4 {
+    color: #fff;
+}
+.pricing .content-center span {
+    color: #fff;
+}
+.pricing .content-center ul li {
+    color: #fff;
+}
+.pricing .content-center ul li.not-active {
+    color: #aaa;
+}
+
+
+
+.testimonial i {
+    font-size: 40px;
+    margin-bottom: 32px;
+    color: #333;
+}
+.testimonial h5 {
+    margin: 10px 0;
+}
+.testimonial span {
+    font-size: 13px;
+}
+.carousel-item {
+    position: relative;
+    width: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: -webkit-transform .6s ease-in-out;
+    transition: transform .6s ease-in-out;
+    transition: transform .6s ease-in-out,-webkit-transform .6s ease-in-out;
+    text-align: center;
+}
+.slick-dots li button:before{
+    font-size: 45px;
+    
+  
+}
+.slick-dots .slick-active li button:before{
+    color: #614cab;
+    opacity: 1;
+}
+.slick-arrow{
+    display: none;
+}
+
+
+
+
+.box-contentGrid{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    align-items: center;
+    justify-content: center;
+}
+.contentGridDiv1{
+    grid-column: span 4;
+}
+.contentGridDiv2{
+    grid-column: span 8;
+}
+.contact .content h5 {
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+.contact .content h5:first-child {
+    margin-top: 0;
+}
+.contact-formFlexDiv{
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+.contact-formFlexDiv>div{
+    width: 50%;
+}
+
+.conatctSubmitBtnDIv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.conatctSubmitBtnDIv button{
+    margin-top: 0;
+}
+
+
+
+#scrollTotopbutton {
+    display: inline-block;
+    background-color: #FF9800;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  #scrollTotopbutton i{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+    color: #fff;
+  }
+  #scrollTotopbutton::after {
+    
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+    
+  }
+  #scrollTotopbutton:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #scrollTotopbutton:active {
+    background-color: #555;
+  }
+  #scrollTotopbutton.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+@media(max-width:980px) {
+    .bars {
+        display: block;
+    }
+
+    .serviceLinkDiv {
+        display: flex;
+        flex-direction: column;
+        background-color: #f8f5ff;
+        width: 90%;
+        padding: 15px 0;
+        margin-top: 50px;
+        display: none;
+        position: fixed;
+        top: 50px;
+        left: 10px;
+        z-index: 1;
+        box-shadow: 0 12px 30px -15px rgb(0 0 0 / 20%);
+        border-radius: 5px;
+
+    }
+
+    .serviceLinkDiv .service {
+        color: #333;
+        text-align: left;
+        font-size: 1.5rem;
+        margin-top: 20px;
+        display: block;
+        padding-left: 25px;
+
+    }
+
+    .home-introService {
+        margin-top: -70px;
+        padding-bottom: 100px !important;
+    }
+
+    .introServiceFlex {
+        display: block;
+        width: 100%;
+    }
+
+    .introServiceFlexDiv1 {
+        text-align: center;
+        padding: 12px 0;
+    }
+
+    .introServiceFlexDiv2 .content-image {
+        padding: 10px 0;
+        margin: auto;
+    }
+
+    .introServiceFlexDiv1 h2 {
+        font-size: 60px;
+        margin: 12px 0;
+
+    }
+
+
+    .about-content-flexDiv{
+        flex-direction: column;
+    }
+
+
+
+
+    .container {
+        padding: 0 15px;
+        width: 100%;
+    }
+
+
+    .box-contentGrid{
+        display: block;
+    }
+    .contentGridDiv1{
+        margin-bottom: 40px;
+    }
+}
